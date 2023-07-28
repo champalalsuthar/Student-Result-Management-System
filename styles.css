@@ -1,0 +1,88 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Times New Roman", Times, serif;
+}
+
+body {
+    margin: 0;
+    padding: 30px;
+    background-repeat: no-repeat;
+    background-image: url(student.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h1 {
+    text-align: center;
+    color: black;
+    margin-bottom: 15px;
+    text-shadow: 0px 0px 10px rgba(128, 12, 74, 0.81);
+    font-size: 38px;
+}
+
+form,
+.tablecontainer {
+    margin: 0 auto;
+    max-width: 650px;
+    padding: 18px;
+    background-color: rgb(186, 165, 165);
+}
+
+form label,
+form input {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 20px;
+}
+
+form input[type="text"],
+form input[type="number"] {
+    width: 100%;
+    padding: 6px;
+    border: 1px solid rgb(40, 149, 177);
+    border-radius: 6px;
+}
+
+form button[type="submit"] {
+    display: block;
+
+    width: 40%;
+    margin: 0 auto;
+    justify-content: center;
+    padding: 8px;
+    margin-top: 16px;
+    border: 1px solid yellowgreen;
+    cursor: pointer;
+    background-color: red;
+    color: whitesmoke;
+    border-radius: 9px;
+    font-size: 20px;
+}
+
+#resultTable {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#resultTable th,
+#resultTable td {
+    padding: 8px;
+    border: 2px solid black;
+    text-align: center;
+}
+
+.edit-button {
+    background-color: rgb(186, 82, 231);
+    color: #fff;
+    padding: 5px;
+    border: 1px solid yellow;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+.edit-button:hover {
+    background-color: black;
+}
